@@ -1,0 +1,83 @@
+
+
+ul {
+	display: inline-block;
+	width: 175px;
+}
+
+input[type="text"] {
+	width: 40px;
+
+}
+
+ul li {
+list-style-type: none;
+cursor: pointer;
+height: 50px;
+
+}
+
+ul li p {
+	display: inline-table;
+	width: 50%;
+	float: left;
+
+}
+
+ul li img {
+	height: 30px;
+	vertical-align: -moz-middle-with-baseline;
+}
+
+li {
+	border: 1px solid black;
+}
+
+svg {
+	height: 40px;
+	width: 40px;
+}
+
+svg.desk {
+	height: 50px;
+	width: 100px;
+}
+
+
+#object-container li:hover {
+	background-color: blue;
+	color: #ffffff;
+}
+ canvas {
+ 	border: 1px solid black;
+ }
+
+.workspace {
+	text-align: center;
+}
+
+#object {
+	overflow: hidden;
+	resize:both;
+	position: absolute;
+	border: 1px solid black;
+}
+
+div.item {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	/*resize:both;*/
+}
+
+div.formContainer {
+	text-align: center;
+	margin-top: 5em;
+	font-family: Trebuchet MS;
+}
+
+.formContainer h2 {
+	text-decoration: underline;
+}
+
+

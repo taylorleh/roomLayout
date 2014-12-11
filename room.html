@@ -1,0 +1,64 @@
+
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<title>Room Design</title>
+
+</head>
+<body>
+
+<div class="workspace">
+
+	<div id="object-container">
+		<div id="dimension">
+			<p>width:<input type="text" id="feet" /> in:<input id="inch" type="text" /></p>
+			<p>height:<input type="text" id="height" /> in:<input type="text" /></p>
+			<button id="calculate">Calulate Room</button>
+		</div>
+
+		<ul>
+			<li draggable="true" id="Chair">
+				<p>Chair</p>
+				<img draggable='false' src="chair8.svg" height='30px' />
+			</li>
+
+			<li draggable="true" id="Table">
+				<p>Table</p>
+				<img draggable='false' src="studio1.svg" height='30px' />
+			</li>
+
+			<li draggable="true" id="Desk">
+				<p>Desk</p>
+				<img src="desk1.svg" height='30px' />
+				</li>
+
+			<li draggable="true" id="Cabinet">
+				<p>Cabinet</p>
+				<img src="cabinet7.svg" draggable='false' height='30px' />
+			</li>
+		</ul>
+
+	</div>
+
+	<canvas id="can" width="500px" height="500px"></canvas>
+	<!-- <svg xmlns:xlink="http://www.w3.org/1999/xlink">
+	  <image xlink:href="studio1.svg" />
+	</svg> -->
+</div>
+<div class="formContainer" style="margin-bottom:5em;">
+	<h2>Upload Blueprints</h2>
+	
+		<input type='file' accept="image/*" name="plans" id='plans'>
+		<button id="upload">Upload</button>
+	
+
+</div>
+
+</body>
+<!-- <script type="text/javascript" src="layout.js"></script> -->
+<script type="text/javascript" src="layout2.js"></script>
+
+</html>
+
